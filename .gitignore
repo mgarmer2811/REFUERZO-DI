@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build output
+.next/
+out/
+
+# Production environment variables
+.env.local
+.env.*.local
+
+# Test environment variables
+.env.test.local
+
+# Next.js cache
+.next/cache
+
+# Next.js static exports
+out/
+
+# Typescript cache (if you're using TypeScript)
+*.tsbuildinfo
+
+# Optional npm/yarn/pnpm cache
+.npm
+.yarn
+.pnpm-store
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Coverage directory used by testing tools like Jest
+coverage/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Temporary files
+*.swp
+*.swo
