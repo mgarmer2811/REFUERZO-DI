@@ -2,6 +2,7 @@ import Greeting from './Greeting';
 import App from './App';
 import Counter from './Counter'
 import ProductList from './ProductList';
+import Parent from './Parent'
 
 export default function Home() {
   return(
@@ -12,6 +13,7 @@ export default function Home() {
       <br/>
       <Counter />
       <ProductList />
+      <Parent />
       <br/>
     </div>
   );
